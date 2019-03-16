@@ -16,7 +16,7 @@ public class HelloWorld {
         File pathToFile = new File("/Users/flaviusstan/Downloads/IMG_9379.jpeg");
         try {
             Image image = ImageIO.read(pathToFile);
-            BufferedImage resizedImage = im.resXxXxY(image, 5, 1);
+            BufferedImage resizedImage = im.resWidthxHeightxMultiplier(image, 5, 1);
             System.out.println(Integer.toString(resizedImage.getWidth()));
         } catch (IOException e) {
             // TODO Auto-generated catch block
